@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function BoxOfficeCard() {
   return (
-    <div className="flex justify-center items-center bg-white px-4 mt-6">
-      <div className="flex flex-col sm:flex-row items-center justify-between w-[95%] sm:w-[85%] lg:w-[80%] max-w-6xl p-6 sm:p-10 rounded-2xl bg-gradient-to-r from-[#f3b0f2] to-[#fdf5b9] shadow-lg gap-4 sm:gap-8">
+    <div className="w-full h-screen flex justify-center items-center bg-white px-4 mt-6">
+      <div className="border-r-5 border-b-5 border-gray-200 w-[90vw] h-[70%] flex flex-col sm:flex-row items-center justify-between w-[95%] sm:w-[85%] lg:w-[80%] max-w-6xl p-6 sm:p-10 bg-gradient-to-r from-[#d66ed4] to-[#f1e795] shadow-lg gap-4 sm:gap-8">
         {/* Left Arrow */}
         <button className="hidden sm:flex p-2 bg-white rounded-full shadow-md hover:bg-gray-100 transition">
           ⭠

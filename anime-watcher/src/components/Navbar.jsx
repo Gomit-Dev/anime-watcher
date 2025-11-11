@@ -8,11 +8,11 @@ function Navbar() {
   };
 
   return (
-    <div className="navbar bg-[#ebc7eb] shadow-sm border-b border-gray-400">
+  <div className="navbar bg-gradient-to-r from-[#d16cd1] to-[#a9c3ff] shadow-sm border-b border-gray-400">
       {/* start part */}
 
       <div className="navbar-start">
-        <a className="mx-10 font-semibold text-xl">AnimeWatcher</a>
+        <a className="mx-10 font-semibold text-xl text-slate-300">AnimeWatcher</a>
       </div>
 
       {/* middle part */}
@@ -50,7 +50,7 @@ function Navbar() {
 
           {/* sun icon */}
           <svg
-            className="swap-on h-10 w-10 fill-current"
+            className="text-slate-600 swap-on h-10 w-10 fill-current"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >
@@ -59,7 +59,7 @@ function Navbar() {
 
           {/* moon icon */}
           <svg
-            className="swap-off h-10 w-10 fill-current"
+            className="text-slate-800 swap-off h-10 w-10 fill-current"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >
